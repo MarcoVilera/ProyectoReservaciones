@@ -1,5 +1,6 @@
 {
     "hotelName": "Aria Ld Hotel",
     "address": "Municipio Pampatar, Edo. Nueva Esparta",
-    "order":"asc"
+    "order":"asc",
+    "dataPath": "data/ariaData.json"
 }

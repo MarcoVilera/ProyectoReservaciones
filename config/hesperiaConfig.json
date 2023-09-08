@@ -1,5 +1,6 @@
 {
     "hotelName": "Hesperia WTC Valencia",
     "address": "Municipio Naguanagua, Edo. Carabobo",
-    "order":"des"
+    "order":"des",
+    "dataPath": "data/hesperiaData.json"
 }

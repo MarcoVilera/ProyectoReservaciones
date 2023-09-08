@@ -1,5 +1,6 @@
 {
     "hotelName": "Sunsol Ecoland",
-    "address": "Municipio Gomez, Edo. Nueva Esparta",
-    "order":"asc"
+    "address": "Municipio Gómez, Edo. Nueva Esparta",
+    "order":"asc",
+    "dataPath": "data/sunsolData.json"
 }

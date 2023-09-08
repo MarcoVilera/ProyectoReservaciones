@@ -1,5 +1,6 @@
 {
     "hotelName": "GH Guaparo Suites",
     "address": "Municipio Valencia, Edo. Carabobo",
-    "order":"des"
+    "order":"des",
+    "dataPath": "data/guaparoData.json"
 }
