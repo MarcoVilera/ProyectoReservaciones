@@ -30,5 +30,5 @@ def WriteData(path, data):
 
     # Escribe el archivo JSON con los datos agregados
     with open(path, "w",encoding="utf-8") as content:
-        json.dump(data_json, content)
+        json.dump(data_json, content,default=lambda cls:cls.__dict__, indent=3)
         content.close()
