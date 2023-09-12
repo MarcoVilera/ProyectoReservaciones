@@ -1,6 +1,8 @@
 {
     "hotelName": "Hesperia WTC Valencia",
     "address": "Municipio Naguanagua, Edo. Carabobo",
+    "fee":450,
+    "roomCap":125,
     "order":"des",
     "dataPath": "data/hesperiaData.json"
 }

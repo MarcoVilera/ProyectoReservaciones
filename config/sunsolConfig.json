@@ -1,6 +1,8 @@
 {
     "hotelName": "Sunsol Ecoland",
     "address": "Municipio Gómez, Edo. Nueva Esparta",
+    "fee":350,
+    "roomCap":110,
     "order":"asc",
     "dataPath": "data/sunsolData.json"
 }
