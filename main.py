@@ -28,9 +28,9 @@ def creaClient(path,fee):
 def printTable(arr):
     #Imprime en consola en formato tabular el contenido del arreglo de objetos Client
     #arr= Arreglo de objetos Clients
-    print(" Nombre   Apellido   Cédula       Email         Fecha de Reservación   Días de estadía  Precio Total  Método de pago       ID")
+    print(" Nombre   Apellido   Cédula       Email                  Fecha de Reservación   Días de estadía  Precio Total    Método de pago       ID")
     for i in arr:
-        print("{:^8}  {:^8}  {:^8}  {:<20}   {:<12}           {:<8}        {:<8}      {:<10}   {:<13}".format(i.fName,i.lName,i.identification,i.email,i.reservationDate,i.stayDays,i.totalPrice,i.payMethod,i.id))
+        print("{:^8}  {:^8}  {:^8}  {:<30}   {:<12}           {:<8}        {:<9}      {:<10}   {:<13}".format(i.fName,i.lName,i.identification,i.email,i.reservationDate,i.stayDays,i.totalPrice,i.payMethod,i.id))
 
 print("Gestión de reservaciones")
 
