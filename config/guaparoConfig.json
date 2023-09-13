@@ -2,7 +2,6 @@
     "hotelName": "GH Guaparo Suites",
     "address": "Municipio Valencia, Edo. Carabobo",
     "fee":150,
-    "roomCap":75,
     "order":"des",
     "dataPath": "data/guaparoData.json"
 }
