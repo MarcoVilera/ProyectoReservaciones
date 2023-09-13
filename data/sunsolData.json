@@ -1,0 +1,112 @@
+[
+   {
+      "fName": "Alfonso",
+      "lName": "Andrade",
+      "identification": "16032939",
+      "email": "alfonAA@gmail.com",
+      "reservationDate": "28/08/2023",
+      "stayDays": 3,
+      "totalPrice": 1050,
+      "payMethod": "D\u00e9bito",
+      "id": "A280820233D"
+   },
+   {
+      "fName": "Ivan",
+      "lName": "Yepes",
+      "identification": "14859656",
+      "email": "ivpp2005@gmail.com",
+      "reservationDate": "29/08/2023",
+      "stayDays": 7,
+      "totalPrice": 2450,
+      "payMethod": "Efectivo",
+      "id": "I290820237E"
+   },
+   {
+      "fName": "Kevin",
+      "lName": "G\u00e1lvez",
+      "identification": "6555197",
+      "email": "kevingvl@gmail.com",
+      "reservationDate": "15/09/2023",
+      "stayDays": 7,
+      "totalPrice": 2450,
+      "payMethod": "Cr\u00e9dito",
+      "id": "K150920237C"
+   },
+   {
+      "fName": "Alexa",
+      "lName": "Aguila",
+      "identification": "30160082",
+      "email": "AlexTaa2002@hotmail.com",
+      "reservationDate": "04/09/2023",
+      "stayDays": 7,
+      "totalPrice": 2450,
+      "payMethod": "Efectivo",
+      "id": "A040920237E"
+   },
+   {
+      "fName": "Marta",
+      "lName": "Collazo",
+      "identification": "10936052",
+      "email": "martacoll1993@gmail.com",
+      "reservationDate": "17/09/2023",
+      "stayDays": 15,
+      "totalPrice": 5250,
+      "payMethod": "Cr\u00e9dito",
+      "id": "M1709202315C"
+   },
+   {
+      "fName": "Franco",
+      "lName": "Mart\u00ed",
+      "identification": "12355994",
+      "email": "frankmmt@gmail.com",
+      "reservationDate": "03/10/2023",
+      "stayDays": 9,
+      "totalPrice": 3150,
+      "payMethod": "D\u00e9bito",
+      "id": "F031020239D"
+   },
+   {
+      "fName": "Nicole",
+      "lName": "Tassis",
+      "identification": "6640046",
+      "email": "nikT123T@hotmail.com",
+      "reservationDate": "10/10/2023",
+      "stayDays": 6,
+      "totalPrice": 2100,
+      "payMethod": "Efectivo",
+      "id": "N101020236E"
+   },
+   {
+      "fName": "Lucia",
+      "lName": "Leoz",
+      "identification": "26928496",
+      "email": "LucyLeoLL@gmail.com",
+      "reservationDate": "30/08/2023",
+      "stayDays": 13,
+      "totalPrice": 4550,
+      "payMethod": "Cr\u00e9dito",
+      "id": "L3008202313C"
+   },
+   {
+      "fName": "Vanessa",
+      "lName": "Costa",
+      "identification": "15180879",
+      "email": "vaneppAC@gmail.com",
+      "reservationDate": "01/10/2023",
+      "stayDays": 15,
+      "totalPrice": 5250,
+      "payMethod": "Efectivo",
+      "id": "V0110202315E"
+   },
+   {
+      "fName": "Efraim",
+      "lName": "Alvarado",
+      "identification": "20694559",
+      "email": "EffAlvrt@gmail.com",
+      "reservationDate": "30/09/2023",
+      "stayDays": 16,
+      "totalPrice": 5600,
+      "payMethod": "Cr\u00e9dito",
+      "id": "E3009202316C"
+   }
+]
