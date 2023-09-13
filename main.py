@@ -13,7 +13,7 @@ def creaClient(path,fee):
     #path=ruta del archivo .json donde se guardarán los objetos clase Client
     #fee: Tarifa de coste del hoepedaje por dia
     while True:
-        empty=input("Desea agregar mas reservaciones? Si/No ").lower()
+        empty=input("Desea agregar más reservaciones? Si/No ").lower()
         if empty=="si":
             data= Client.Client()
             data.createClient(fee)
@@ -69,7 +69,7 @@ content=JsonUtil.ReadData(DATAPATH)
 if len(content)==0:
     #En caso de que el archivo esté vacio
     while True:
-        empty=input("No se han encontrado reservaciones, desea agregar mas reservaciones? Si/No ").lower()
+        empty=input("No se han encontrado reservaciones, desea agregar más reservaciones? Si/No ").lower()
         if empty=="si" or empty=="no":
             if empty in ("si"):
                 #Se crea un objeto Client
@@ -339,9 +339,50 @@ while True:
     #Listar usando Shellsort
     elif menu in ("3","listar usando shellsort"):
         #Lista de objetos Client que se usará para el algoritmo Shellsort 
-        clienteS=cliente
-        ShellSort.shellSort(clienteS,len(clienteS),order)
-        printTable(clienteS)
+        while True:
+            clienteS=cliente
+            atr=input("Introduce el criterio a buscar \n\t1) Nombre \t2) Apellido \t3) Cédula \t4) Email  \t5) Fecha de reservación \n\t6) Días de estadía \t7)Precio Total \t8) Método de pago \t9) Id \nOpción: ").lower()
+                   #Validación de que el criterio sea válido
+            if atr in ("1","nombre","2","apellido","3","cédula","cedula",
+                              "4","email","5","fecha de reservación","fecha de reservacion",
+                              "6","días de estadía","días de estadia","dias de estadía","dias de estadia","7","precio total",
+                              "8","método de pago","metodo de pago","9","id"):
+                
+                if atr in ("1","nombre"):
+                    ShellSort.shellSort(clienteS,len(clienteS),order,"fName")
+
+                elif atr in ("2","apellido"):
+                    ShellSort.shellSort(clienteS,len(clienteS),order,"lName")
+
+                elif atr in ("3","cédula","cedula"):
+                    ShellSort.shellSort(clienteS,len(clienteS),order,"email")
+
+                elif atr in ("4","email"):
+                    ShellSort.shellSort(clienteS,len(clienteS),order,"identification")
+
+                elif atr in ("5","fecha de reservación","fecha de reservacion"):
+                    ShellSort.shellSort(clienteS,len(clienteS),order,"reservationDate")
+
+                elif atr in ("6","días de estadía","días de estadia","dias de estadía","dias de estadia"):
+                    ShellSort.shellSort(clienteS,len(clienteS),order,"stayDays")
+
+                elif atr in ("7","precio total"):
+                    ShellSort.shellSort(clienteS,len(clienteS),order,"totalPrice")
+
+                elif atr in ("8","método de pago","metodo de pago"):
+                    ShellSort.shellSort(clienteS,len(clienteS),order,"payMethod")
+
+                elif atr in ("9","id"):
+                    ShellSort.shellSort(clienteS,len(clienteS),order,"id")
+                    
+                    #En caso de no serlo, se pedirá un criterio válido
+            else:
+                print("Criterio no válido")
+                continue
+            printTable(clienteS)
+            break
+       
+        
     
     #Listar usando HeapSort en función de los dias de estadía
     elif menu in ("4","listar usando heapsort"):
